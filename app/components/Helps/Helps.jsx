@@ -16,7 +16,7 @@ const Helps = () => {
                     <RevealAnimation>
                         <p className="mb-5 lg:mb-[42px] text-sm lg:text-lg xl:text-[22px] font-semibold">We are delivering top level digital services with <br /> our best experienced team, just get started <br /> with us.</p>
                     </RevealAnimation>
-                    <button className='button-primary mr-10 mx-auto lg:mx-0'>Read more <AiOutlineDoubleRight className='ml-[10px]' /></button>
+                    <button className='button-primary mr-0 mx-auto lg:ml-0 lg:mr-auto'>Read more <AiOutlineDoubleRight className='ml-[10px]' /></button>
                 </div>
                 <div className="relative mt-[74px] lg:mt-0 flex justify-end mx-auto">
                     <img className="w-9/12 lg:w-full inline-block" src={imgOne.src} alt="" />
