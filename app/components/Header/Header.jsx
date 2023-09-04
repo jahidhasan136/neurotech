@@ -24,10 +24,10 @@ const Header = () => {
                         <img className='z-10' src={logo.src} alt="" />
                     </Link>
                     <div className='md:flex gap-10 text-lg lg:text-xl z-10 font-bold hidden'>
-                        <Link href="/" className='text-[#002a4abf] transition-all'>About Us</Link>
-                        <Link href="/" className='text-[#002a4abf] transition-all'>Our Client</Link>
-                        <Link href="/" className='text-[#002a4abf] transition-all'>Services</Link>
-                        <Link href="/" className='text-[#002a4abf] transition-all'>Contact Us</Link>
+                        <Link href="/" className='text-[#002a4abf] hover:text-[#02ACD0] transition-all'>About Us</Link>
+                        <Link href="/" className='text-[#002a4abf] hover:text-[#02ACD0] transition-all'>Our Client</Link>
+                        <Link href="/" className='text-[#002a4abf] hover:text-[#02ACD0] transition-all'>Services</Link>
+                        <Link href="/" className='text-[#002a4abf] hover:text-[#02ACD0] transition-all'>Contact Us</Link>
                     </div>
                     <button className='hidden lg:block text-[#02ACD0] text-base lg:text-lg border rounded-r-[15px] rounded-b-[15px] border-[#02ACD0] lg:py-[13px] px-5 lg:px-[34px]'>Sign Up</button>
                     <div className='md:hidden' onClick={handleClick}>

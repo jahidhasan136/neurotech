@@ -9,14 +9,14 @@ const Helps = () => {
     return (
         <div className="container mt-10 md:mt-[130px] mb-[130px]">
             <div className="md:flex items-center justify-between">
-                <div className="text-end md:text-start">
+                <div className="grid justify-end lg:justify-start">
                     <RevealAnimation>
                         <h2 className="font-bold text-[30px] lg:text-[40px] xl:text-[55px] text-[#002A4A] mb-[18px]">Follow our steps, we <br /> will help you</h2>
                     </RevealAnimation>
                     <RevealAnimation>
                         <p className="mb-5 lg:mb-[42px] text-sm lg:text-lg xl:text-[22px] font-semibold">We are delivering top level digital services with <br /> our best experienced team, just get started <br /> with us.</p>
                     </RevealAnimation>
-                    <button className='button-primary mr-10 mx-auto flex lg:justify-start'>Read more <AiOutlineDoubleRight className='ml-[10px]' /></button>
+                    <button className='button-primary mr-10 mx-auto lg:mx-0'>Read more <AiOutlineDoubleRight className='ml-[10px]' /></button>
                 </div>
                 <div className="relative mt-[74px] lg:mt-0 flex justify-end mx-auto">
                     <img className="w-9/12 lg:w-full inline-block" src={imgOne.src} alt="" />
